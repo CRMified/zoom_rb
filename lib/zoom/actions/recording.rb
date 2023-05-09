@@ -7,7 +7,7 @@ module Zoom
 
       RECORDING_SETTINGS_KEYS = %i[share_recording recording_authentication
                                    authentication_option authentication_domains viewer_download password
-                                   on_demand approval_type send_email_to_host show_social_share_buttons].freeze
+                                   on_demand approval_type send_email_to_host show_social_share_buttons from to].freeze
 
       get 'recording_list', '/users/:user_id/recordings'
 
